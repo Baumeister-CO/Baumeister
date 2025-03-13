@@ -1,57 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap"
-      rel="stylesheet"
-    />
-  </head>
 
-  <body>
-    <header class="flex justify-between items-center p-4 px-8 pt-12 lg:pt-4">
-      <div class="flex flex-col leading-tight text-xl self-start">
-        <span>DE</span>
-        <span>EN</span>
-      </div>
-      <div class="text-4xl font-semibold">Baumeister</div>
-      <div class="hidden lg:flex flex-col leading-tight text-xl items-end">
-        <span>About</span>
-        <span>Services</span>
-        <span>References</span>
-        <span>Contact</span>
-      </div>
-      <img class="lg:hidden" src="/images/menu.svg" />
-    </header>
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vite App</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet" />
+</head>
 
-    <div class="h-105 relative mt-40">
-      <div class="w-full h-full relative">
-        <img class="absolute left-60" src="/public/images/pink.svg" />
-        <img class="absolute top-20 right-0" src="/public/images/green2.svg" />
-        <img class="absolute" src="/public/images/yellow.svg" />
-        <img class="absolute top-20 right-10" src="/public/images/blue.svg" />
-        <img class="absolute top-60 left-20" src="/public/images/red.svg" />
-        <img class="absolute top-20 left-3" src="/public/images/green.svg" />
-      </div>
+<body>
+  <header class="flex justify-between items-center p-4 px-8 pt-12 lg:pt-4">
+    <div class="flex flex-col leading-tight text-xl self-start">
+      <span>DE</span>
+      <span>EN</span>
+    </div>
+    <div class="text-4xl font-semibold">Baumeister</div>
+    <div class="hidden lg:flex flex-col leading-tight text-xl items-end">
+      <span>About</span>
+      <span>Services</span>
+      <span>References</span>
+      <span>Contact</span>
+    </div>
+    <img class="lg:hidden" src="/images/menu.svg" />
+  </header>
 
-      <div class="absolute top-0 left-0 right-0 bottom-0 flex">
-        <div
-          class="text-center text-2xl max-w-54 leading-tight m-auto mt-auto text-white font-medium"
-        >
-          We help you set focus and gain impact. By adding to the conversation,
-          not to the noise.
-        </div>
+  <div class="h-105 relative mt-40">
+    <div class="w-full h-full relative">
+      <img class="absolute left-60" src="/public/images/pink.svg" />
+      <img class="absolute top-20 right-0" src="/public/images/green2.svg" />
+      <img class="absolute" src="/public/images/yellow.svg" />
+      <img class="absolute top-20 right-10" src="/public/images/blue.svg" />
+      <img class="absolute top-60 left-20" src="/public/images/red.svg" />
+      <img class="absolute top-20 left-3" src="/public/images/green.svg" />
+    </div>
+
+    <div class="absolute top-0 left-0 right-0 bottom-0 flex">
+      <div class="text-center text-2xl max-w-54 leading-tight m-auto mt-auto text-white font-medium">
+        We help you set focus and gain impact. By adding to the conversation,
+        not to the noise.
       </div>
     </div>
-    </div>
+  </div>
+  </div>
   <div class="" id="app">
     <!-- Sections -->
-    <div class="px-10 mx-auto pt-10">
+    <div class="px-8 mx-auto pt-10">
 
       <!-- Section 1 -->
       <div class="text-3xl font-outfit">
@@ -65,6 +61,8 @@
       <!-- Section 2 -->
       <div class="p-5 flex justify-center items-center py-32">
         <img class="w-48" src="/sect-1-img.png" alt="">
+
+
       </div>
       <!-- Section 3 -->
       <div class="flex text-3xl">
@@ -78,8 +76,31 @@
         </div>
         <div class="w-[15%]"></div>
       </div>
+
+      <!-- SECTION 4 -->
+      <div class="relative h-screen flex flex-col justify-center items-center my-12 max-w-md w-full">
+        <img class="absolute -z-50 w-full" src="/green-block.png" alt="" />
+        <div class=" max-w-72 text-white text-[21.5px] font-outfit flex ">
+          <p class="mt-5">
+            Our strategic approach is a collaborative journey that starts with
+            analysing the initial situation and leads to messages that cut
+            through the information overload. We take care of content production
+            and maintain relationships with multipliers to position your brand
+            in the best possible way. From analysis to implementation, we
+            accompany you every step of the way, ensuring that every measure is
+            effective.
+          </p>
+        </div>
+      </div>
+      <!-- <div class="relative w-[350px] h-[550px] bg-[url('/green-block.png')] bg-cover bg-center text-white flex items-center justify-center p-6 text-center mb-3">
+        <p class="text-base leading-relaxed bg-red-500">
+          Our strategic approach is a collaborative journey that starts with analysing the initial situation and leads to messages that cut through the information overload. We take care of content production and maintain relationships with multipliers to position your brand in the best possible way. From analysis to implementation, we accompany you every step of the way, ensuring that every measure is effective.
+        </p>
+      </div> -->
+
+
     </div>
-  </div>
+    <!-- FOOTER -->
     <footer class="space-y-24 font-medium ml-6 mb-6">
       <div class="flex justify-center items-center">
         <img src="./public/images/red.svg" alt="" class="w-82" />
@@ -104,7 +125,9 @@
         </div>
       </div>
     </footer>
-    <script type="module" src="/src/main.js"></script>
-  </body>
-</html>
 
+
+    <script type="module" src="/src/main.js"></script>
+</body>
+
+</html>
